@@ -1,3 +1,1 @@
-window.onload(() => {
-  console.log('External JavaScript connected');
-});
+console.log('JAVASCRIPT CONNECTED VIA GITHUB PAGES');
