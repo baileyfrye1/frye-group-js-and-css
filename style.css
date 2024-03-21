@@ -5,3 +5,12 @@ body {
 footer {
   letter-spacing: 5px;
 }
+
+#year {
+  color: #fff;
+}
+.footer-container *::selection,
+#year::selection {
+  background: var(--white);
+  color: var(--black);
+}
