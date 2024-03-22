@@ -1,7 +1,6 @@
 export default function footer() {
   document.addEventListener('readystatechange', (event) => {
     if (event.target.readyState === 'complete') {
-      console.log('Hello from function');
       const footerContainer = document.querySelector('.footer-container');
       return (footerContainer.innerHTML = `<section class="footer-content">
       <div class="logos">
