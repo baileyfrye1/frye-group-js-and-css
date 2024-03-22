@@ -4,10 +4,6 @@ export default function formVal() {
   const lastName = document.querySelector('#last');
   const email = document.querySelector('#email');
   const error = document.querySelector('.error');
-  const contactBtn = document.querySelector('.contact-btn');
-  const firstLabel = document.querySelector('.first');
-  const lastLabel = document.querySelector('.last');
-  const emailLabel = document.querySelector('.email');
   const input = document.querySelector('input[name = "tags"]');
   const giveaway = document.querySelector('a[href = "/giveaway"]');
   let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
