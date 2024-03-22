@@ -1,4 +1,4 @@
-export default function footer() {
+export function footer() {
   document.addEventListener('readystatechange', (event) => {
     if (event.target.readyState === 'complete') {
       const footerContainer = document.querySelector('.footer-container');
