@@ -1,8 +1,6 @@
 export default function footer() {
-  document.addEventListener('readystatechange', (event) => {
-    if (event.target.readyState === 'complete') {
-      const footerContainer = document.querySelector('.footer-container');
-      return (footerContainer.innerHTML = `<section class="footer-content">
+  const footerContainer = document.querySelector('.footer-container');
+  return (footerContainer.innerHTML = `<section class="footer-content">
       <div class="logos">
         <img src="https://res.cloudinary.com/dlieh2u8a/image/upload/v1678212350/Frye%20Group%20Website%20Build/White_Frye_Group_Logo_lsdowt.png" alt="" class="frye">
         <img src="https://res.cloudinary.com/dlieh2u8a/image/upload/v1678387257/Frye%20Group%20Website%20Build/White-Hive-Logo_cec2w4.png" alt="" class="hive">
@@ -63,6 +61,4 @@ export default function footer() {
     <p id="year">
       © ${new Date().getFullYear()} Frye Group | LIC #347717 | Hive Nashville All rights reserved.
     </p>`);
-    }
-  });
 }

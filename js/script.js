@@ -1,6 +1,13 @@
 import footer from './components/footer.js';
 import emailSignup from './components/emailSignup.js';
+import workWithUs from './components/workWithUs.js';
 
-emailSignup();
-footer();
+document.addEventListener('readystatechange', (event) => {
+  if (event.target.readyState === 'complete') {
+    emailSignup();
+    workWithUs();
+    footer();
+  }
+});
+
 console.log('THIS IS A TEST');

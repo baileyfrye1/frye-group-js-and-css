@@ -1,4 +1,4 @@
-export default function footer() {
+export default function workWithUs() {
   document.addEventListener('readystatechange', (event) => {
     if (event.target.readyState === 'complete') {
       const wwu = document.querySelector('#wwu');
