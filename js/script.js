@@ -9,5 +9,3 @@ document.addEventListener('readystatechange', (event) => {
     footer();
   }
 });
-
-console.log('THIS IS A TEST');
