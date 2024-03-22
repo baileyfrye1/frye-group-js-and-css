@@ -1,4 +1,4 @@
-export function emailSignup() {
+export default function emailSignup() {
   document.addEventListener('readystatechange', (event) => {
     if (event.target.readyState === 'complete') {
       const contactContainer = document.querySelector('.contact-container');

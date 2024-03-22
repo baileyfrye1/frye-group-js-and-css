@@ -1,5 +1,5 @@
-import { footer } from './components/footer';
-import { emailSignup } from './components/emailSignup';
+import footer from './components/footer.js';
+import emailSignup from './components/emailSignup.js';
 
 emailSignup();
 footer();
