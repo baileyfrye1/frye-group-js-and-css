@@ -1,10 +1,8 @@
 export default function workWithUs() {
-  document.addEventListener('readystatechange', (event) => {
-    if (event.target.readyState === 'complete') {
-      console.log('Work with us loaded');
-      const wwu = document.querySelector('#wwu');
-      console.log(wwu);
-      return (wwu.innerHTML = `<div class="contact-content">
+  console.log('Work with us loaded');
+  const wwu = document.querySelector('#wwu');
+  console.log(wwu);
+  return (wwu.innerHTML = `<div class="contact-content">
       <h2>
         Work With Us
       </h2>
@@ -13,6 +11,4 @@ export default function workWithUs() {
       </p>
       <a href="contact" class="btn-light">Contact Us</a>
     </div>`);
-    }
-  });
 }
