@@ -152,6 +152,7 @@ button.contact-btn:hover {
 @media (max-width: 800px) {
   #contact-block {
     height: auto;
+    padding-block: 0;
   }
 
   .contact-container {
