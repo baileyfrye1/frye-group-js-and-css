@@ -9,8 +9,14 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background: var(--black);
+  color: var(--white);
+}
+
 body {
   font-size: 16px !important;
+  padding-left: env(safe-area-inset-left);
 }
 
 .md-custom-code .mg-container {
@@ -20,4 +26,9 @@ body {
 ul {
   list-style: none !important;
   padding: 0 !important;
+}
+
+.mg-title span::selection {
+  background: var(--white);
+  color: var(--black);
 }
