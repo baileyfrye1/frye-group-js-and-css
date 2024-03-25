@@ -284,7 +284,7 @@ body.about main.template6 {
   position: relative;
 }
 
-.card::after {
+/* .card::after {
   content: '';
   display: block;
   position: absolute;
@@ -313,7 +313,7 @@ body.about main.template6 {
     rgba(0, 0, 0, 0.79) 100%
   );
   transition: transform calc(700ms * 2) cubic-bezier(0.19, 1, 0.22, 1);
-}
+} */
 
 .card__grid .card:nth-child(1) {
   --bg-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
