@@ -291,6 +291,10 @@ body.about main.template6 {
   --bg-image: 'https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ';
 }
 
+.media__wrapper .btn-dark {
+  margin-top: 1rem;
+}
+
 @media (max-width: 900px) {
   #about-wrapper .about-container {
     flex-direction: column;
