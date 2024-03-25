@@ -6,6 +6,7 @@ import formVal from './components/formVal.js';
 const contactForm = document.querySelector('.contact-form');
 const cards = document.querySelectorAll('.card');
 const modal = document.querySelector('.modal');
+const youtubePlayer = document.querySelector('.youtube-player');
 
 document.addEventListener('readystatechange', (event) => {
   if (event.target.readyState === 'complete') {
@@ -20,7 +21,8 @@ if (contactForm) formVal();
 
 if (modal) {
   cards.forEach((card) => {
-    card.addEventListener('click', () => {
+    card.addEventListener('click', (e) => {
+      youtubePlayer.setAttribute('src', `${e.target.dataset.youtubeUrl}`);
       modal.showModal();
       modal.style.display = 'flex';
     });

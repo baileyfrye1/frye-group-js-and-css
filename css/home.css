@@ -394,21 +394,24 @@ body.about main.template6 {
   display: none;
   flex-direction: column;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
-  &::backdrop {
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(3px);
-  }
-  .close-modal {
-    font-size: 1.25rem;
-    align-self: flex-end;
-    cursor: pointer;
-    opacity: 60%;
-    &:hover {
-      opacity: 1;
-    }
-  }
-  .modal-text {
-    margin-block: 1.25rem;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.youtube-player {
+  margin-top: 1.5rem;
+}
+
+.close-modal {
+  font-size: 1.25rem;
+  align-self: flex-end;
+  cursor: pointer;
+  opacity: 60%;
+  &:hover {
+    opacity: 1;
   }
 }
 
