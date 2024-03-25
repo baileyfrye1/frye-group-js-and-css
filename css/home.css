@@ -321,7 +321,7 @@ body.about main.template6 {
     rgba(0, 0, 0, 0.79) 100%
   );
   z-index: 0;
-  transition: transform calc(700ms * 2) cubic-bezier(0.19, 1, 0.22, 1);
+  transition: transform calc(700ms * 2) cubic-bezier(0, 0.76, 1, 0.18);
 }
 
 .card:hover:after,
@@ -345,15 +345,26 @@ body.about main.template6 {
 .card__title {
   font-size: 1.25rem;
   color: var(--white);
+  position: relative;
 }
 
 .card__title:after {
   content: '';
-  width: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
   height: 2px;
-  left: 0;
-  top: 0;
   color: var(--white);
+  margin-top: 0.25rem;
+  transition: width 0.3s 0.5s, left 0.3s 0.5s;
+}
+
+.card:hover .card__title:after,
+.card:focus-within .card__title:after {
+  width: 100%;
+  left: 0;
 }
 
 .card__grid .card:nth-child(1) {
