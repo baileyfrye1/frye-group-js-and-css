@@ -283,7 +283,12 @@ body.about main.template6 {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: transform 750ms;
+  transition: background-size 750ms;
+}
+
+.card:hover,
+.card:focus-within {
+  background-size: 125% 125%;
 }
 
 .card::after {
@@ -314,12 +319,15 @@ body.about main.template6 {
     rgba(0, 0, 0, 0.762) 94.1%,
     rgba(0, 0, 0, 0.79) 100%
   );
+  z-index: 0;
   transition: transform calc(700ms * 2) cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .card__content {
   transform: translateY(275%);
   transition: transform 0.5s;
+  position: relative;
+  z-index: 1;
 }
 
 .card__title {
