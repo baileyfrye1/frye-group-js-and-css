@@ -279,6 +279,7 @@ body.about main.template6 {
 
 .card {
   background: var(--bg-image) center center/cover;
+  background-size: 120% 100%;
   padding: 6rem 2rem;
   cursor: pointer;
   position: relative;
@@ -288,7 +289,7 @@ body.about main.template6 {
 
 .card:hover,
 .card:focus-within {
-  background-size: 125% 125%;
+  background-size: 140% 120%;
 }
 
 .card::after {
