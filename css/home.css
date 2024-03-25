@@ -371,11 +371,11 @@ body.about main.template6 {
 }
 
 .card__grid .card:nth-child(2) {
-  --bg-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
+  --bg-image: url('https://i.ytimg.com/vi/4bqeHzh5m8M/maxresdefault.jpg');
 }
 
 .card__grid .card:nth-child(3) {
-  --bg-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
+  --bg-image: url('https://i.ytimg.com/vi/4bqeHzh5m8M/maxresdefault.jpg');
 }
 
 .media__wrapper .btn-dark {
