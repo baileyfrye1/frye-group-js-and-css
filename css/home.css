@@ -228,7 +228,6 @@ a.cta-btn:hover .arrow {
 
 #about-wrapper .about-text .about-head h2 {
   position: relative;
-  text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
@@ -258,6 +257,34 @@ body.about main.template6 {
 
 .md-featured-area.template6 .style-container .city-style .mask {
   transition: all 0.3s !important;
+}
+
+/* Content Grid */
+.media-wrapper {
+  padding-block: 2rem;
+  background: var(--white);
+  text-align: center;
+}
+
+.media__title {
+  font-size: 2rem;
+}
+
+.card__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card__grid .card:nth-child(1) {
+  background-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
+}
+
+.card__grid .card:nth-child(2) {
+  background-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
+}
+
+.card__grid .card:nth-child(3) {
+  background-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
 }
 
 @media (max-width: 900px) {
