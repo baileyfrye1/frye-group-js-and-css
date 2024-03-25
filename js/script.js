@@ -29,6 +29,7 @@ if (modal) {
 
     modal.addEventListener('click', (e) => {
       if (e.target.classList.contains('close-modal')) {
+        youtubePlayer.setAttribute('src', '');
         modal.close();
         modal.style.display = 'none';
       }
