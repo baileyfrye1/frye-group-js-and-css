@@ -321,7 +321,7 @@ body.about main.template6 {
     rgba(0, 0, 0, 0.79) 100%
   );
   z-index: 0;
-  transition: transform calc(700ms * 2) cubic-bezier(0, 0.76, 1, 0.18);
+  transition: transform calc(700ms * 2) cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .card:hover:after,
@@ -353,11 +353,10 @@ body.about main.template6 {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -2px;
   width: 0;
   height: 2px;
   color: var(--white);
-  margin-top: 0.25rem;
   transition: width 0.3s 0.5s, left 0.3s 0.5s;
 }
 
