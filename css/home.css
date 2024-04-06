@@ -335,6 +335,7 @@ body.about main.template6 {
   position: relative;
   z-index: 1;
   transition: transform 0.5s;
+  pointer-events: none;
 }
 
 .card:hover .card__content,
@@ -346,6 +347,7 @@ body.about main.template6 {
   font-size: 1.25rem;
   color: var(--white);
   position: relative;
+  pointer-events: none;
 }
 
 .card__title:after {

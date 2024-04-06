@@ -22,7 +22,6 @@ if (contactForm) formVal();
 if (modal) {
   cards.forEach((card) => {
     card.addEventListener('click', (e) => {
-      console.log(e.target);
       youtubePlayer.setAttribute('src', `${e.target.dataset.youtubeUrl}`);
       modal.showModal();
       modal.style.display = 'flex';
