@@ -13,7 +13,6 @@ document.addEventListener('readystatechange', (event) => {
     emailSignup();
     workWithUs();
     footer();
-    formVal();
   }
 });
 
