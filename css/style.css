@@ -87,6 +87,7 @@
   color: var(--white);
   position: relative;
   pointer-events: none;
+  text-align: center;
 }
 
 .card__title:after {
@@ -105,16 +106,4 @@
 .card:focus-within .card__title:after {
   width: 100%;
   left: 0;
-}
-
-.card__grid .card:nth-child(1) {
-  --bg-image: url('https://i.ytimg.com/vi/H3zwbTuz4Cw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShBMA8=&rs=AOn4CLAOrKpUpvj8_03cz3bnwTnFqUpBYQ');
-}
-
-.card__grid .card:nth-child(2) {
-  --bg-image: url('https://i.ytimg.com/vi/4bqeHzh5m8M/maxresdefault.jpg');
-}
-
-.card__grid .card:nth-child(3) {
-  --bg-image: url('https://i.ytimg.com/vi/kPyhuLZEjs8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihMMA8=&rs=AOn4CLD9k9e9f_cCJ9hwYz-vfNnmL-dBKw');
 }
