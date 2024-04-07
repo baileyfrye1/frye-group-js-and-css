@@ -10,6 +10,7 @@
   overflow-x: hidden;
 }
 
+/* Card Styles */
 .card__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -106,4 +107,38 @@
 .card:focus-within .card__title:after {
   width: 100%;
   left: 0;
+}
+
+/* Modal Styles */
+/* Modal */
+.modal {
+  inset: 0;
+  margin: auto;
+  padding: 2em;
+  max-width: 80ch;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.youtube-player {
+  margin-top: 1.5rem;
+}
+
+.close-modal {
+  font-size: 1.25rem;
+  align-self: flex-end;
+  cursor: pointer;
+  opacity: 60%;
+  &:hover {
+    opacity: 1;
+  }
 }
