@@ -19,7 +19,7 @@
     grid-template-columns: repeat(2, minmax(min-content, 322.66px));
   }
   @media (max-width: 800px) {
-    grid-template-columns: minmax(min-content, 322.66px);
+    grid-template-columns: 1fr;
   }
 }
 
