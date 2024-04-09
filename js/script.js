@@ -22,6 +22,8 @@ if (modal) {
   cards.forEach((card) => {
     card.addEventListener('click', (e) => {
       youtubePlayer.setAttribute('src', `${e.target.dataset.youtubeUrl}`);
+      youtubePlayer.setAttribute('width', `${e.target.dataset.width || 560}`);
+      youtubePlayer.setAttribute('height', `${e.target.dataset.height || 315}`);
       modal.showModal();
       modal.style.display = 'flex';
     });
