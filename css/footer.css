@@ -98,4 +98,10 @@ footer {
   #copyright {
     margin: 0;
   }
+
+  .logos {
+    align-items: start;
+    gap: 0;
+    margin-bottom: 3rem;
+  }
 }
