@@ -93,3 +93,9 @@ footer {
   background: var(--white);
   color: var(--black);
 }
+
+@media (max-width: 900px) {
+  #copyright {
+    margin: 0;
+  }
+}
