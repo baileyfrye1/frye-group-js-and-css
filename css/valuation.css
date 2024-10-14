@@ -1,7 +1,7 @@
 .md-evaluation-banner.evaluation-progress.broker-evaluation-progress
   .md-evaluation-steps-content
   .md-evaluation-steps
-  .steps-box.selected {
+  .steps-box.selected.step-description {
   color: var(--white) !important;
 }
 
