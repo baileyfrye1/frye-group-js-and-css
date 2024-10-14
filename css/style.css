@@ -1,0 +1,150 @@
+@import url('reset.css');
+@import url('footer.css');
+@import url('emailSignup.css');
+@import url('workWithUs.css');
+
+/* Utility Classes */
+.container {
+  width: min(1000px, 100% - 4rem);
+  margin-inline: auto;
+  overflow-x: hidden;
+}
+
+/* Card Styles */
+.card__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(2, minmax(min-content, 322.66px));
+  }
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: var(--bg-image) center center/cover;
+  background-size: 120% 100%;
+  padding: 6rem 2rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-size 750ms;
+}
+
+.card:hover,
+.card:focus-within {
+  background-size: 140% 120%;
+}
+
+.card::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.009) 11.7%,
+    rgba(0, 0, 0, 0.034) 22.1%,
+    rgba(0, 0, 0, 0.072) 31.2%,
+    rgba(0, 0, 0, 0.123) 39.4%,
+    rgba(0, 0, 0, 0.182) 46.6%,
+    rgba(0, 0, 0, 0.249) 53.1%,
+    rgba(0, 0, 0, 0.32) 58.9%,
+    rgba(0, 0, 0, 0.394) 64.3%,
+    rgba(0, 0, 0, 0.468) 69.3%,
+    rgba(0, 0, 0, 0.54) 74.1%,
+    rgba(0, 0, 0, 0.607) 78.8%,
+    rgba(0, 0, 0, 0.668) 83.6%,
+    rgba(0, 0, 0, 0.721) 88.7%,
+    rgba(0, 0, 0, 0.762) 94.1%,
+    rgba(0, 0, 0, 0.79) 100%
+  );
+  z-index: 0;
+  transition: transform calc(700ms * 2) cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card:hover:after,
+.card:focus-within:after {
+  transform: translateY(-45%);
+}
+
+.card__content {
+  transform: translateY(275%);
+  transition: transform 0.5s;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.5s;
+  pointer-events: none;
+}
+
+.card:hover .card__content,
+.card:focus-within .card__content {
+  transform: translateY(0);
+}
+
+.card__title {
+  font-size: 1.25rem;
+  color: var(--white);
+  position: relative;
+  pointer-events: none;
+  text-align: center;
+}
+
+.card__title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background: var(--white);
+  transition: width 0.3s 0.5s, left 0.3s 0.5s;
+}
+
+.card:hover .card__title:after,
+.card:focus-within .card__title:after {
+  width: 100%;
+  left: 0;
+}
+
+/* Modal Styles */
+/* Modal */
+.modal {
+  inset: 0;
+  margin: auto;
+  padding: 2em;
+  max-width: 80ch;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.youtube-player {
+  margin-top: 1.5rem;
+}
+
+.close-modal {
+  font-size: 1.25rem;
+  align-self: flex-end;
+  cursor: pointer;
+  opacity: 60%;
+  &:hover {
+    opacity: 1;
+  }
+}

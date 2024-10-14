@@ -1,0 +1,20 @@
+html,
+body {
+  background: var(--white) !important;
+}
+
+.md-content.richtext .help-container {
+  background: var(--black) !important;
+  color: var(--white) !important;
+  font-family: font-Montserrat-400 !important;
+}
+
+.md-content.richtext .help-container .help-item h3,
+.md-calculator.broker {
+  color: var(--white) !important;
+}
+
+.mg-title._title_,
+.description-container {
+  text-align: center;
+}

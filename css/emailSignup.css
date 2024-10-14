@@ -1,0 +1,182 @@
+#contact-block {
+  padding-block: 2rem;
+  background: var(--white);
+}
+
+.contact-container {
+  position: relative;
+  z-index: 0;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.contact-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -5;
+}
+
+#mc-form {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+#mc-form input {
+  outline: none;
+  border: 1px solid var(--black);
+  background: inherit;
+  caret-color: var(--black);
+  padding: 1rem 0.75rem;
+  color: var(--black);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+#first {
+  width: 100%;
+}
+
+#last {
+  width: 100%;
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-box.name {
+  width: 50%;
+}
+
+.input-box .label {
+  position: absolute;
+  left: 0;
+  padding: 0.8rem 0.75rem;
+  pointer-events: none;
+  color: #777;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-box .email.label {
+  transform: translateY(-3.1rem);
+}
+
+.input-box input:valid ~ .label,
+.input-box input:focus ~ .label {
+  color: #191919;
+  transform: translateX(0.625rem) translateY(-0.4rem);
+  font-size: 0.75rem;
+  padding: 0 0.2rem;
+  background: var(--black);
+  color: var(--white);
+  letter-spacing: 0.2rem;
+}
+
+.input-box input:valid ~ .email.label,
+.input-box input:focus ~ .email.label {
+  color: var(--black);
+  transform: translate(0.625rem, -3.5rem);
+  font-size: 0.75rem;
+  padding: 0 0.2rem;
+  background: var(--black);
+  color: var(--white);
+  letter-spacing: 0.2rem;
+}
+
+#mc-form input[type='email'] {
+  display: block;
+  width: 100%;
+}
+
+.error {
+  margin-top: 0.5rem;
+  color: red;
+}
+
+button.contact-btn {
+  margin-top: 2rem;
+  color: var(--black);
+  padding: 0.75rem 2rem;
+  position: relative;
+  background: transparent;
+  border: 1px solid var(--black);
+  font-size: 1.25rem;
+  font-family: font-Montserrat-400;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+button.contact-btn::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+button.contact-btn:hover::before {
+  top: 0;
+  color: var(--white);
+}
+
+button.contact-btn:hover {
+  color: var(--white);
+}
+
+@media (max-width: 800px) {
+  #contact-block {
+    height: auto;
+    padding-block: 0;
+  }
+
+  .contact-container {
+    padding: 2rem;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .names {
+    flex-direction: column;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .input-box.name {
+    width: 100%;
+  }
+
+  #first {
+    width: 100%;
+  }
+
+  #last {
+    width: 100%;
+  }
+}

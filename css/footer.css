@@ -1,0 +1,107 @@
+.footer-content .vertical-line {
+  height: 180px;
+  border-left: 2px solid var(--white);
+  color: var(--white);
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+footer {
+  height: auto;
+  padding: 5rem 0;
+  background: var(--black);
+}
+
+.footer-content {
+  display: flex;
+  height: auto;
+  margin: auto;
+  padding-bottom: 3rem;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.logos {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logos .hive {
+  height: 60px;
+  width: 180px;
+}
+
+.logos .frye {
+  height: 80px;
+  width: 69.48px;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  color: var(--white);
+}
+
+.footer-col {
+  color: var(--white);
+}
+
+.footer-links .footer-col {
+  width: 12rem;
+}
+
+.footer-col .link-title {
+  margin-bottom: 1.3rem;
+  font-size: 1.25rem;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col ul li a {
+  transition: all 0.5s;
+  font-size: 1rem;
+}
+
+.footer-col ul li a:hover {
+  padding-left: 0.5rem;
+  color: var(--white);
+}
+
+#copyright {
+  margin: 0 12rem;
+  border-top: 2px dotted #333;
+  padding: 1rem;
+}
+
+#year {
+  color: #fff;
+}
+
+.footer-container *::selection,
+#year::selection {
+  background: var(--white);
+  color: var(--black);
+}
+
+@media (max-width: 900px) {
+  #copyright {
+    margin: 0;
+  }
+
+  .logos {
+    align-items: start;
+    gap: 0;
+    margin-bottom: 3rem;
+  }
+}
