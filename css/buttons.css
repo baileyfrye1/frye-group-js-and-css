@@ -1,0 +1,71 @@
+a.btn-light {
+  margin-top: 2rem;
+  color: var(--white);
+  padding: 0.75rem 2rem;
+  position: relative;
+  background: transparent;
+  border: 1px solid var(--white);
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 1;
+}
+
+a.btn-light::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+a.btn-light:hover::before {
+  top: 0;
+  color: var(--black);
+}
+
+a.btn-light:hover {
+  color: var(--black);
+}
+
+a.btn-dark {
+  margin-top: 2rem;
+  color: var(--black);
+  padding: 0.75rem 2rem;
+  position: relative;
+  background: transparent;
+  border: 1px solid var(--black);
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 1;
+}
+
+a.btn-dark::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+a.btn-dark:hover::before {
+  top: 0;
+  color: var(--white);
+}
+
+a.btn-dark:hover {
+  color: var(--white);
+}
