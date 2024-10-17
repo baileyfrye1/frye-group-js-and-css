@@ -85,7 +85,7 @@ tbody tr:hover {
 }
 
 .fa-solid {
-    display: block;
+  --fa-display: block;
   text-align: center;
 
 }
