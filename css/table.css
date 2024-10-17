@@ -84,6 +84,22 @@ tbody tr:hover {
   width: max-content;
 }
 
+.fa-solid {
+    display: block;
+  text-align: center;
+
+}
+
+.fa-check {
+  color: #006b21;
+}
+
+.fa-xmark {
+  color: #b30021;
+}
+
+
+
 .status.active {
   --status-color: #86e49d;
   --status-font-color: #006b21;
