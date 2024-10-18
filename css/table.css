@@ -59,7 +59,8 @@ thead th {
   position: sticky;
   top: 0;
   left: 0;
-  background: #d5d1defe;
+  background: var(--black);
+  color: var(--white);
 }
 
 tbody tr {
@@ -67,7 +68,7 @@ tbody tr {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #0000000b;
+  background-color: #19191912;
 }
 
 tbody tr:hover {
