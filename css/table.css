@@ -86,7 +86,6 @@ tbody tr:hover {
 }
 
 .fa-solid {
-  --fa-display: block;
   text-align: center;
 
 }
@@ -98,8 +97,6 @@ tbody tr:hover {
 .fa-xmark {
   color: #b30021;
 }
-
-
 
 .status.active {
   --status-color: #86e49d;
