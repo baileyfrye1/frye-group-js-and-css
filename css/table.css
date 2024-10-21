@@ -65,6 +65,14 @@ thead th {
   color: var(--white);
 }
 
+.sort {
+  cursor: pointer;
+}
+
+.sort.active, tbody td.active{
+  color: #6c00bd;
+}
+
 tbody tr {
   transition: background-color .3s;
 }
@@ -98,6 +106,16 @@ tbody tr:hover {
 
 .fa-xmark {
   color: #b30021;
+}
+
+.fa-arrow-up {
+  font-size: .8rem;
+  transition: transform 0.3s;
+}
+
+.sort.active .fa-arrow-up {
+  transform: rotate(180deg);
+  color: #6c00bd;
 }
 
 .status.active {
