@@ -3,6 +3,7 @@
   height: 100%;
   display: grid;
   place-items: center;
+  padding-block: 2rem;
 }
 
 table, th, td {
