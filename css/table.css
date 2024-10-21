@@ -4,6 +4,7 @@
   display: grid;
   place-items: center;
   padding-block: 2rem;
+  background-color: var(--white);
 }
 
 table, th, td {
