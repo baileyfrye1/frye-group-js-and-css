@@ -70,7 +70,7 @@ thead th {
 }
 
 .sort.active, tbody td.active{
-  color: #6c00bd;
+  color: green;
 }
 
 tbody tr {
@@ -115,7 +115,7 @@ tbody tr:hover {
 
 .sort.active .fa-arrow-up {
   transform: rotate(180deg);
-  color: #6c00bd;
+  color: green;
 }
 
 .status.active {
