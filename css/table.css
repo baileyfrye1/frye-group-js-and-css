@@ -69,7 +69,7 @@ thead th {
   cursor: pointer;
 }
 
-.sort.active, tbody td.active{
+.sort.current, tbody td.current{
   color: green;
 }
 
@@ -113,9 +113,12 @@ tbody tr:hover {
   transition: transform 0.3s;
 }
 
-.sort.active .fa-arrow-up {
-  transform: rotate(180deg);
+.sort.current .fa-arrow-up {
   color: green;
+}
+
+.sort.asc .fa-arrow-up {
+  transform: rotate(180deg);
 }
 
 .status.active {
