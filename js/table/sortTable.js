@@ -1,4 +1,5 @@
   export default function sortTable(column, sortAsc) {
+    const tableRows = document.querySelectorAll('tbody tr');
     [...tableRows].sort((a, b) => {
       let firstRow = a.querySelectorAll('td')[column].textContent.toLowerCase().trim();
       let secondRow = b.querySelectorAll('td')[column].textContent.toLowerCase().trim();
