@@ -1,8 +1,8 @@
 import sortTable from './sortTable.js';
 
   function sortFunction() {
-  const tableHeadings = document.querySelectorAll('.sort');
-  const tableRows = document.querySelectorAll('tbody tr');
+    const tableHeadings = document.querySelectorAll('.sort');
+    const tableRows = document.querySelectorAll('tbody tr');
 
   tableHeadings.forEach((header, i) => {
     if (i > 1) i += 1;
