@@ -29,7 +29,7 @@ export default function footer() {
         <div class="footer-col">
           <h3 class="link-title">Investors</h3>
           <ul>
-            <li><a href="/investor-guide">Investor Guide</a></li>
+            <li><a href="/investing-process">Investing Process</a></li>
             <li><a href="/calculators">Calculators</a></li>
           </ul>
         </div>
