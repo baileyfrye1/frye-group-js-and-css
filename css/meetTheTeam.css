@@ -1,0 +1,12 @@
+.agent-list {
+  justify-content: space-between;
+}
+
+._title_ {
+  margin-inline: 3.75rem;
+  font-size: 2.5rem;
+}
+
+.md-team.agent-directory {
+  background: var(--white) !important;
+}

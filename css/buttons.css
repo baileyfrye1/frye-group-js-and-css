@@ -1,0 +1,82 @@
+/*TODO: Move button to general class so all buttons are consistent*/
+a.btn-light,
+.btn-light {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  background: var(--white);
+  color: var(--black);
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: 0.3s opacity;
+  display: inline-block;
+  font-family: var(--mg-button-font, var(--font-bold));
+}
+
+a.btn-dark,
+.btn-dark {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  background: var(--black);
+  color: var(--white);
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: 0.3s opacity;
+  display: inline-block;
+  font-family: var(--mg-button-font, var(--font-bold));
+}
+
+.view-all-listings-btn {
+  margin-top: 2rem !important;
+  border: none !important;
+  outline: none !important;
+  background: var(--black) !important;
+  color: var(--white) !important;
+  padding: 0.75em 1.5em !important;
+  font-size: 1rem !important;
+  border-radius: 50px !important;
+  transition: 0.3s opacity !important;
+  display: inline-block !important;
+  font-family: var(--mg-button-font, var(--font-bold)) !important;
+}
+
+.md-house.layout6 .btn-box .view-all-listings-btn {
+  line-height: 25px !important;
+}
+
+.btn-dark:hover,
+.btn-light:hover,
+.view-all-listings-btn:hover {
+  opacity: 80%;
+}
+
+/*a.btn-light {*/
+/*  margin-top: 2rem;*/
+/*  color: var(--white);*/
+/*  padding: 0.75rem 2rem;*/
+/*  position: relative;*/
+/*  background: transparent;*/
+/*  border: 1px solid var(--white);*/
+/*  font-size: 1.25rem;*/
+/*  transition: all 0.3s ease-in-out;*/
+/*  cursor: pointer;*/
+/*  display: inline-block;*/
+/*  z-index: 1;*/
+/*}*/
+
+/*a.btn-dark {*/
+/*  margin-top: 2rem;*/
+/*  color: var(--black);*/
+/*  padding: 0.75rem 2rem;*/
+/*  position: relative;*/
+/*  background: transparent;*/
+/*  border: 1px solid var(--black);*/
+/*  font-size: 1.25rem;*/
+/*  transition: all 0.3s ease-in-out;*/
+/*  cursor: pointer;*/
+/*  display: inline-block;*/
+/*  z-index: 1;*/
+/*}*/

@@ -1,0 +1,127 @@
+@import url('reset.css');
+@import url('footer.css');
+@import url('emailSignup.css');
+@import url('workWithUs.css');
+@import url('buttons.css');
+
+/* Utility Classes */
+.container {
+  width: min(1340px, 100% - 4rem);
+  margin-inline: auto;
+  overflow-x: hidden;
+}
+
+.copyright.md-evaluation-banner {
+  display: none !important;
+}
+
+.house-basic .vertical-line {
+  display: none;
+}
+
+.broker-lead-form {
+  margin-right: 100px;
+}
+
+/* Card Styles */
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .card__img {
+  transform: scale(1.05);
+}
+
+.card__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(2, minmax(min-content, 322.66px));
+  }
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+.card__img-container {
+  border-radius: 20px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.card__img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s;
+  pointer-events: none;
+}
+
+.card__content {
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+  pointer-events: none;
+}
+
+.card__tag {
+  font-size: 1.125rem;
+  margin-top:1rem;
+  font-weight: 600;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  color: var(--black);
+  position: relative;
+  pointer-events: none;
+}
+
+
+/* Modal Styles */
+/* Modal */
+.modal {
+  inset: 0;
+  margin: auto;
+  padding: 2em;
+  max-width: 80ch;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.youtube-player {
+  margin-top: 1.5rem;
+}
+
+.close-modal {
+  --fa-display: flex;
+  font-size: 1.25rem;
+  align-self: flex-end;
+  cursor: pointer;
+  border: 2px solid var(--black);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  opacity: 60%;
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.contact__modal .close-modal {
+  color: #000;
+}
