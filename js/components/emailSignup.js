@@ -6,7 +6,7 @@ export default function emailSignup() {
       <h2 class="contact__header">
         Receive exclusive real estate insights and event updates straight to your inbox
       </h2>
-      <button class="btn-light">
+      <button class="btn-light contact__button">
         Sign Up Now
       </button>
     </div> `;
