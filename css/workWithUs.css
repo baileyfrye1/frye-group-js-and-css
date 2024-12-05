@@ -1,0 +1,79 @@
+/* Contact Banner */
+#wwu-wrapper {
+  overflow-y: hidden;
+}
+#wwu {
+  background: url(https://res.cloudinary.com/dlieh2u8a/image/upload/v1719514372/Frye%20Group%20Website%20Build/home-page/wwu.webp)
+    no-repeat center center/cover;
+  position: relative;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background-attachment: fixed;
+}
+
+#wwu::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#wwu * {
+  z-index: 10;
+}
+
+#wwu .contact-content {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 0 2rem;
+  font-size: 1.25rem;
+}
+
+#wwu .contact-content h2 {
+  font-size: 2rem;
+}
+
+#wwu .contact-content h2::after {
+  content: '';
+  text-align: center;
+  display: block;
+  width: 5rem;
+  height: 2px;
+  background: var(--white);
+  margin: 0.5rem 0 0 4.5rem;
+}
+
+a.btn-light {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 1250px) {
+  #wwu {
+    background-attachment: scroll;
+  }
+
+  #wwu .contact-content h2::after {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  #wwu {
+    background-attachment: scroll;
+  }
+
+  #wwu .contact-content {
+    font-size: 1rem;
+  }
+}

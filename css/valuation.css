@@ -1,0 +1,35 @@
+.md-evaluation-banner.evaluation-progress.broker-evaluation-progress
+  .md-evaluation-steps-content
+  .md-evaluation-steps
+  .steps-box.selected.step-description {
+  color: var(--white) !important;
+}
+
+input.input {
+  background: var(--white) !important;
+}
+
+.md-evaluation-banner.evaluation-progress.broker-evaluation-progress
+  .md-evaluation-steps-content
+  .md-evaluation-steps
+  .steps-box
+  .step
+  .step-icon {
+  background: var(--white) !important;
+}
+
+.md-evaluation-banner.evaluation-progress.broker-evaluation-progress
+  .md-evaluation-steps-content
+  .md-evaluation-steps
+  .steps-box.selected
+  .step
+  .step-icon {
+  background: var(--black) !important;
+  color: var(--white) !important;
+}
+
+@media (max-width: 840px) {
+  .md-evaluation-banner.broker .banner .cover {
+    max-width: 80% !important;
+  }
+}

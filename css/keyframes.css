@@ -1,0 +1,9 @@
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 hsla(var(--status-color), 0.9);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0.5rem hsla(var(--status-color), 0);
+  }
+}

@@ -1,0 +1,89 @@
+#contact-block {
+  background: var(--black);
+  padding-block: clamp(2rem, -0.5926rem + 5.9259vw, 4rem);
+}
+
+.contact__content {
+  text-align: center;
+  margin-inline: auto;
+}
+
+/*TODO: Make font-size variable, font is too big on mobile*/
+.contact__header {
+  color: var(--white);
+  font-size: clamp(1.5rem, 0.8519rem + 1.4815vw, 2rem);
+}
+
+.contact__modal {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.contact__modal::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.modal__content {
+  margin-top: 1rem;
+  margin-inline: 2rem;
+}
+
+.modal__header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal__form {
+  margin-top: 2rem;
+}
+
+.modal__names {
+  display: flex;
+  gap: 1rem;
+}
+
+.form__label {
+  font-weight: bold;
+}
+
+.required {
+  color: #ff0000;
+}
+
+.modal__input-container {
+  width: 100%;
+}
+
+.modal__input-container--email {
+  margin-top: 1rem;
+}
+
+.modal__input {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  background: #d9d9d9;
+  font-size: 1rem;
+  padding: 0.75rem;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 50px;
+}
+
+.modal__button {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .modal__names {
+    flex-direction: column;
+  }
+}
