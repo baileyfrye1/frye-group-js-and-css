@@ -1,0 +1,7 @@
+.md-header.standard .menu-item {
+  transition: all 0.3s;
+}
+
+.md-header.standard .menu-item:hover {
+  color: #c4c2c2 !important;
+}
