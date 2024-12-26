@@ -70,11 +70,13 @@ a.btn-light.secondary,
 .btn-dark.secondary:hover {
   background: var(--black);
   color: var(--white);
+  opacity: 100%;
 }
 
 .btn-light.secondary:hover {
   background: var(--white);
   color: var(--black);
+  opacity: 100%;
 }
 
 /*a.btn-light {*/
