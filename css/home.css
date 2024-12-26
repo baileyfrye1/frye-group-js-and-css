@@ -128,32 +128,32 @@ body {
 }
 
 .cta-head {
-  color: var(--white);
+  color: var(--black);
   margin-top: 0.5rem;
 }
 
 .cta-head::selection,
 .cta-body::selection,
 a.cta-btn strong::selection {
-  background: var(--white) !important;
-  color: var(--black) !important;
+  background: var(--black) !important;
+  color: var(--white) !important;
 }
 
 .cta-body {
-  color: var(--white);
+  color: var(--black);
   line-height: 1.5;
   margin-top: 0.5rem;
 }
 
 a.cta-btn {
   display: inline-block;
-  color: var(--white);
+  color: var(--black);
   font-size: 1.1rem;
   margin-top: 1rem;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, var(--white), var(--white) 50%, #bababa 50%);
+  background-image: linear-gradient(to right, var(--black), var(--black) 50%, #646464 50%);
   background-size: 200% 100%;
   background-position: 100%;
   transition: all 0.3s ease-in;
@@ -163,7 +163,7 @@ a.cta-btn:after {
   content: '';
   display: block;
   height: 1px;
-  background: var(--white);
+  background: var(--black);
   margin-top: 0.25rem;
   width: 0;
   transition: all 0.3s ease-in;
@@ -178,7 +178,7 @@ a.cta-btn:hover:after {
 }
 
 .arrow {
-  color: #bababa;
+  color: #646464;
   height: 20px;
   width: 20px;
   margin-left: 0.25rem;
@@ -187,7 +187,7 @@ a.cta-btn:hover:after {
 }
 
 a.cta-btn:hover .arrow {
-  color: var(--white);
+  color: var(--black);
 }
 
 /* About Us */
