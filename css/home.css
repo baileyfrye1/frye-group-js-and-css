@@ -101,7 +101,7 @@ body {
 
 /* Call to Action */
 #cta-background {
-  background-image: linear-gradient(to bottom, var(--white) 40%, var(--black) 40%) !important;
+  background-color: var(--white);
   padding: 2rem;
 }
 

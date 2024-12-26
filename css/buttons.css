@@ -9,7 +9,7 @@ a.btn-light,
   padding: 0.75em 1.5em;
   font-size: 1rem;
   border-radius: 50px;
-  transition: 0.3s opacity;
+  transition: all 0.3s;
   display: inline-block;
   font-family: var(--mg-button-font, var(--font-bold));
 }
@@ -24,9 +24,23 @@ a.btn-dark,
   padding: 0.75em 1.5em;
   font-size: 1rem;
   border-radius: 50px;
-  transition: 0.3s opacity;
+  transition: all 0.3s;
   display: inline-block;
   font-family: var(--mg-button-font, var(--font-bold));
+}
+
+a.btn-dark.secondary,
+.btn-dark.secondary {
+  background: transparent;
+  border: 1px solid var(--black);
+  color: var(--black);
+}
+
+a.btn-light.secondary,
+.btn-light.secondary {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
 }
 
 .view-all-listings-btn {
@@ -51,6 +65,16 @@ a.btn-dark,
 .btn-light:hover,
 .view-all-listings-btn:hover {
   opacity: 80%;
+}
+
+.btn-dark.secondary:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.btn-light.secondary:hover {
+  background: var(--white);
+  color: var(--black);
 }
 
 /*a.btn-light {*/

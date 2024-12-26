@@ -3,6 +3,7 @@
 @import url('emailSignup.css');
 @import url('workWithUs.css');
 @import url('buttons.css');
+@import url('nav.css');
 
 /* Utility Classes */
 .container {
@@ -36,9 +37,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+
   @media (max-width: 1080px) {
     grid-template-columns: repeat(2, minmax(min-content, 322.66px));
   }
+
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -67,7 +70,7 @@
 
 .card__tag {
   font-size: 1.125rem;
-  margin-top:1rem;
+  margin-top: 1rem;
   font-weight: 600;
 }
 
@@ -77,7 +80,6 @@
   position: relative;
   pointer-events: none;
 }
-
 
 /* Modal Styles */
 /* Modal */
@@ -114,9 +116,10 @@
   height: 30px;
   align-items: center;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
   opacity: 60%;
   transition: opacity 0.3s;
+
   &:hover {
     opacity: 1;
   }

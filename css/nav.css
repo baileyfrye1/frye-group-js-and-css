@@ -1,0 +1,14 @@
+.md-header.standard .menu-item {
+  transition: all 0.3s;
+}
+
+.md-header.standard .menu-item:hover {
+  color: #c4c2c2 !important;
+}
+
+.md-header.standard .header-container .head-menu > .menu-item.active:before,
+.md-header.standard .header-container .head-menu > .menu-item:hover:before,
+.md-header.standard .header-container .head-account > .menu-item.active:before,
+.md-header.standard .header-container .head-account > .menu-item:hover:before {
+  background-color: #fdfdfd !important;
+}
