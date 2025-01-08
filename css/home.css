@@ -65,7 +65,6 @@ body {
 }
 
 @keyframes animation {
-
   0%,
   100% {
     top: 0;
@@ -98,6 +97,22 @@ body {
   95% {
     top: -150px;
   }
+}
+
+.md-house.layout6 .swiper .swiper-wrapper .swiper-slide.swiper-slide-active .house-slider-item.layout6 .house-imgs {
+  border-radius: var(--outer-border-radius);
+}
+
+.house-info {
+  border-radius: var(--outer-border-radius);
+}
+
+.house-slider-item.layout6 {
+  border-radius: var(--outer-border-radius);
+}
+
+.house-slider-item.layout6 .house-imgs {
+  border-radius: var(--inner-border-radius);
 }
 
 .site-title h2 {
