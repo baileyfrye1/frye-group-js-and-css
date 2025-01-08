@@ -329,7 +329,7 @@ body.about main.template6 {
   #cta-background {
     padding: 2rem 0.75rem;
     background-image: none !important;
-    background-color: var(--black);
+    background-color: var(--white);
   }
 
   .cta-container {
