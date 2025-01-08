@@ -24,6 +24,12 @@
   margin-right: 100px;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 /* Card Styles */
 .card:hover {
   cursor: pointer;

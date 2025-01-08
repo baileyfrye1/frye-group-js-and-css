@@ -126,11 +126,6 @@ body {
 }
 
 .cta-container {
-  width: 1200px;
-  max-width: 100%;
-  margin-inline: auto;
-  overflow: hidden;
-  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
