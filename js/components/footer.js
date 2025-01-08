@@ -36,7 +36,7 @@ export default function footer() {
         <div class="footer-col">
           <h3 class="link-title">Development &<br>Commercial</h3>
           <ul>
-            <li><a href="/development">Development</a></li>
+            <li><a href="/development-listings">Listings Table</a></li>
           </ul>
         </div>
       </section>
