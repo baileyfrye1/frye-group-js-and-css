@@ -225,7 +225,8 @@ tr:hover td > .status {
   }
 
   .table__search:hover,
-  .table__search:focus {
+  .table__search:has(> input:focus),
+  .table__search:has(> input:not(:placeholder-shown)) {
     width: 100%;
   }
 }
