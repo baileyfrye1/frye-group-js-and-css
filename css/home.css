@@ -307,6 +307,7 @@ body.about main.template6 {
 
   #about-wrapper .team-photo {
     margin: auto;
+    width: 100%;
   }
 
   #about-wrapper .about-text .about-head h2::after {
@@ -315,7 +316,7 @@ body.about main.template6 {
   }
 
   .about-text .btn-dark {
-    margin-top: none;
+    margin-top: 0;
   }
 }
 
