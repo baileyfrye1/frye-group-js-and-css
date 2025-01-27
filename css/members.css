@@ -1,5 +1,6 @@
 .members-title {
   text-align: left;
+  margin-bottom: 1.5rem;
 }
 
 .commission-box {
@@ -11,11 +12,18 @@
   align-items: center;
 }
 
+.commission-title {
+  margin-bottom: 1.5rem;
+}
+
 .discount {
   font-size: 1.5rem;
   background: var(--light-green);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  display: inline-block;
+  border-radius: 20px;
+  font-weight: 700;
 }
 
 .commission-amount {
@@ -24,6 +32,6 @@
   margin-bottom: 1rem;
 }
 
-.commission-amount--left {
+.commission-item--left {
   border-right: 1px solid var(--dark-green);
 }
