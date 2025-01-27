@@ -1,6 +1,14 @@
+.members-writeup {
+  margin-top: 4rem;
+}
+
 .members-title {
   text-align: left;
   margin-bottom: 1.5rem;
+}
+
+.commission-promo {
+  margin-block: 4rem;
 }
 
 .commission-box {
