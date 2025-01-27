@@ -1,8 +1,11 @@
 :root {
   --white: #fdfdfd;
   --black: #191919;
+  --light-green: #d5e0cd;
+  --dark-green: #3e5230;
   --inner-border-radius: 20px;
   --outer-border-radius: 35px;
+  --shadow-md: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 * {
