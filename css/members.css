@@ -7,19 +7,6 @@
   margin-bottom: 1.5rem;
 }
 
-.commission-promo {
-  margin-block: 4rem;
-}
-
-.commission-box {
-  display: flex;
-  border: 4px solid var(--black);
-  border-radius: 20px;
-  padding: 2.5rem 4rem;
-  justify-content: center;
-  align-items: center;
-}
-
 .strategy-list {
   margin-top: 1rem;
 
@@ -29,6 +16,19 @@
     }
     margin-top: 0.5rem;
   }
+}
+
+.commission-promo {
+  margin: 2rem 0 4rem;
+}
+
+.commission-box {
+  display: flex;
+  border: 4px solid var(--black);
+  border-radius: 20px;
+  padding: 2.5rem 4rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .commission-title {
