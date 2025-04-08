@@ -23,7 +23,7 @@
 .strategy-list {
   margin-top: 1rem;
 
-  & li:not(:last-child) {
+  & li {
     & span {
       margin: 0 0.5rem 0 1rem;
     }
