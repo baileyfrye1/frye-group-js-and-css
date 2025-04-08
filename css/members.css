@@ -20,6 +20,17 @@
   align-items: center;
 }
 
+.strategy-list {
+  margin-top: 1rem;
+
+  & li:not(:last-child) {
+    & span {
+      margin: 0 0.5rem 0 1rem;
+    }
+    margin-top: 0.5rem;
+  }
+}
+
 .commission-title {
   margin-bottom: 1.5rem;
 }
