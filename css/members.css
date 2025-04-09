@@ -57,5 +57,18 @@
 }
 
 .commission-item--left {
-  border-right: 1px solid var(--dark-green);
+  border-right: 1px solid var(--black);
+}
+
+@media screen and (max-width: 850px) {
+  .commission-box {
+    flex-direction: column;
+  }
+
+  .commission-item--left {
+    border-right: none;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
 }
